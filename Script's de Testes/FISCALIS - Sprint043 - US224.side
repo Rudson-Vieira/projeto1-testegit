@@ -1,0 +1,413 @@
+{
+  "id": "c2f24e8e-237b-46fd-a146-bf600f5d70b3",
+  "version": "2.0",
+  "name": "FISCALIS",
+  "url": "https://fiscalis.homologacao.iphan.gov.br",
+  "tests": [{
+    "id": "f6dadbb0-5efa-4af4-84ba-0c3d09cb7542",
+    "name": "FISCALIS - Sprint043 - US224",
+    "commands": [{
+      "id": "afeb0659-426e-4de9-bb8c-10efb100bc7e",
+      "comment": "",
+      "command": "open",
+      "target": "/fiscalis/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef323e02-a8e3-49b8-87e6-8b2df6892ef2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "900x507",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5dd4c2f-aaf5-4da8-8c46-fc71f3538828",
+      "comment": "",
+      "command": "type",
+      "target": "id=usuario",
+      "targets": [
+        ["id=usuario", "id"],
+        ["name=usuario", "name"],
+        ["css=#usuario", "css:finder"],
+        ["xpath=//input[@id='usuario']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "teste.sistemas"
+    }, {
+      "id": "26f71505-a301-4a0c-bc2c-1a15e8e32e73",
+      "comment": "",
+      "command": "type",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=senha", "name"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "S!st#mas2019"
+    }, {
+      "id": "714a506f-95d0-4bf9-9ada-f0e33bb293fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > a > .arrow",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > a > .arrow", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5423295f-6a80-4113-853c-7baeb9ab2706",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pesquisa",
+      "targets": [
+        ["linkText=Pesquisa", "linkText"],
+        ["css=.open > .sub-menu > li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Pesquisa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5b11775-9862-45a0-b428-a0088a893652",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Fiscalizações Cadastradas",
+      "targets": [
+        ["linkText=Fiscalizações Cadastradas", "linkText"],
+        ["css=.sub-menu > .open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '#/main/fiscalizacaoCadastrada_list')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Fiscalizações Cadastradas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8461cab5-294c-4a4d-9add-011d982d7a6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > .dropdown-toggle",
+      "targets": [
+        ["css=div > .dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'2021 ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "491bf92d-0dba-4b13-8457-84b166cf2c09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-ok",
+      "targets": [
+        ["css=.glyphicon-ok", "css:finder"],
+        ["xpath=//a[@id='selectAll']/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf98dce8-74b9-4fd9-a00b-56d0a7bd82ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group > .blue",
+      "targets": [
+        ["css=.form-group > .blue", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a528359-b47f-423a-abcb-785228c958c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > .dropdown-toggle",
+      "targets": [
+        ["css=div > .dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Todos ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7428d4a5-8fe6-4444-8695-096f84fc5878",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div > .dropdown-toggle",
+      "targets": [
+        ["css=div > .dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Todos ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3b4b4dd-e0ce-4936-843a-12008ca82739",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div > .dropdown-toggle",
+      "targets": [
+        ["css=div > .dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Todos ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bf02672-088b-4dfc-8c23-5cf1addc78d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=deselectAll",
+      "targets": [
+        ["id=deselectAll", "id"],
+        ["linkText=Nenhum", "linkText"],
+        ["css=#deselectAll", "css:finder"],
+        ["xpath=//a[contains(text(),'Nenhum')]", "xpath:link"],
+        ["xpath=//a[@id='deselectAll']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Nenhum')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f649093c-296f-4ba4-9af5-e7e5c97a1831",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2017",
+      "targets": [
+        ["linkText=2017", "linkText"],
+        ["css=.ng-scope:nth-child(11) > .option", "css:finder"],
+        ["xpath=//div[@id='multiselect']/div/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2017')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f19d274-80fe-44c5-93b7-401f11246948",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group > .blue",
+      "targets": [
+        ["css=.form-group > .blue", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f6b063d-3aa7-48be-b94a-d49a54940543",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-actions > .btn",
+      "targets": [
+        ["css=.form-actions > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Relatório em Excel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccea0c30-da0a-41a4-a9ae-7a1a54e69676",
+      "comment": "",
+      "command": "click",
+      "target": "css=.caret:nth-child(1)",
+      "targets": [
+        ["css=.caret:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='multiselect']/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aaf336e5-24fd-400b-986a-bbff4866d563",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(12) > .option .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(12) > .option .ng-binding", "css:finder"],
+        ["xpath=//div[@id='multiselect']/div/ul/li[12]/a/span[2]/span", "xpath:idRelative"],
+        ["xpath=//li[12]/a/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "284acb7e-1a8f-4c52-acaf-8d41baa9a348",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-scope:nth-child(10) > .option .ng-binding",
+      "targets": [
+        ["css=.ng-scope:nth-child(10) > .option .ng-binding", "css:finder"],
+        ["xpath=//div[@id='multiselect']/div/ul/li[10]/a/span[2]/span", "xpath:idRelative"],
+        ["xpath=//li[10]/a/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "819de0d6-112e-4b66-9e2b-8ded6b416adf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group > .blue",
+      "targets": [
+        ["css=.form-group > .blue", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48d75b10-b772-45be-b60f-da30a793ca92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-actions > .btn",
+      "targets": [
+        ["css=.form-actions > .btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Relatório em Excel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aedfb20-c832-4670-8ed0-59fe544c9da7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64774b23-b3f4-4f45-b94a-011476e1819b",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > .dropdown-toggle",
+      "targets": [
+        ["css=div > .dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'3 Itens ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5424fdf1-b76c-41a4-9c2e-a27a64d22e36",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div > .dropdown-toggle",
+      "targets": [
+        ["css=div > .dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'3 Itens ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91c35dd9-7787-4ec6-af55-9230990a785e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div > .dropdown-toggle",
+      "targets": [
+        ["css=div > .dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'3 Itens ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56cad2a4-14f6-44d2-9dc4-b9a3590d083f",
+      "comment": "",
+      "command": "click",
+      "target": "id=deselectAll",
+      "targets": [
+        ["id=deselectAll", "id"],
+        ["linkText=Nenhum", "linkText"],
+        ["css=#deselectAll", "css:finder"],
+        ["xpath=//a[contains(text(),'Nenhum')]", "xpath:link"],
+        ["xpath=//a[@id='deselectAll']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Nenhum')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef87e890-3051-4f20-b6f7-e49801c5d12a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group > .blue",
+      "targets": [
+        ["css=.form-group > .blue", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pesquisar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6881542-ea72-485f-ac90-3c401647c21d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div > .dropdown-toggle",
+      "targets": [
+        ["css=div > .dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Selecione ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a559d8e0-4c27-44da-afaf-6b3c1f050c6b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div > .dropdown-toggle",
+      "targets": [
+        ["css=div > .dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Selecione ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79263ae3-8b15-4810-ba79-dbdce45bc286",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=div > .dropdown-toggle",
+      "targets": [
+        ["css=div > .dropdown-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Selecione ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55b2e8d8-c68b-43f1-9e4c-40acd7f0cef9",
+      "comment": "",
+      "command": "click",
+      "target": "id=deselectAll",
+      "targets": [
+        ["id=deselectAll", "id"],
+        ["linkText=Nenhum", "linkText"],
+        ["css=#deselectAll", "css:finder"],
+        ["xpath=//a[contains(text(),'Nenhum')]", "xpath:link"],
+        ["xpath=//a[@id='deselectAll']", "xpath:attributes"],
+        ["xpath=//div[@id='multiselect']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Nenhum')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "abf430e4-3747-4046-a554-eba4c396cf64",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f6dadbb0-5efa-4af4-84ba-0c3d09cb7542"]
+  }],
+  "urls": ["https://fiscalis.homologacao.iphan.gov.br/"],
+  "plugins": []
+}

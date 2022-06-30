@@ -1,0 +1,360 @@
+{
+  "id": "890af4a3-762d-4920-9848-c2c131794f2f",
+  "version": "2.0",
+  "name": "FISCALIS",
+  "url": "https://fiscalis.homologacao.iphan.gov.br",
+  "tests": [{
+    "id": "fd657837-9848-44e1-a2cd-60492fb4d7b5",
+    "name": "FISCALIS - Sprint043 - US223",
+    "commands": [{
+      "id": "7e1139fa-cd6b-4305-96ca-b496c3145814",
+      "comment": "",
+      "command": "open",
+      "target": "/fiscalis/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8875beb-5d11-4dea-9752-6ae0bfd25b22",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc22712a-a395-466d-8855-b108562da5f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > a > .arrow",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > a > .arrow", "css:finder"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c0f0f97-2a01-4d02-a260-75ceeb8e3b60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sub-menu > li:nth-child(4) .arrow",
+      "targets": [
+        ["css=.sub-menu > li:nth-child(4) .arrow", "css:finder"],
+        ["xpath=//li[4]/ul/li[4]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ab9b0a2-7b3d-41a1-a3ed-d3d2a075a569",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Auto Infração",
+      "targets": [
+        ["linkText=Auto Infração", "linkText"],
+        ["css=.sub-menu > .open li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '#/main/autoInfracao_list')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[4]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Auto Infração')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adff1066-91b2-4220-8336-563a3e500299",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm2",
+      "targets": [
+        ["id=confirm2", "id"],
+        ["css=.odd:nth-child(1) #confirm2", "css:finder"],
+        ["xpath=//button[@id='confirm2']", "xpath:attributes"],
+        ["xpath=//td[7]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f079b6a-067a-4d73-a8fd-d744ac679551",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Notificação",
+      "targets": [
+        ["linkText=Notificação", "linkText"],
+        ["css=.sub-menu > .open li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '#/main/notificacao_list')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[4]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Notificação')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41749dcd-1dc1-4d97-b11e-1c06e1185780",
+      "comment": "",
+      "command": "click",
+      "target": "css=.odd:nth-child(1) .fa",
+      "targets": [
+        ["css=.odd:nth-child(1) .fa", "css:finder"],
+        ["xpath=//button[@id='confirm2']/i", "xpath:idRelative"],
+        ["xpath=//td[7]/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61b01756-94b2-4a3a-9286-d0c7943e70a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Termo de Embargo",
+      "targets": [
+        ["linkText=Termo de Embargo", "linkText"],
+        ["css=.sub-menu > .open li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '#/main/termoEmbargo_list')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[4]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Termo de Embargo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a899ff8a-eb78-4a94-833c-7433596b2d88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.odd:nth-child(1) .fa",
+      "targets": [
+        ["css=.odd:nth-child(1) .fa", "css:finder"],
+        ["xpath=//button[@id='confirm2']/i", "xpath:idRelative"],
+        ["xpath=//td[7]/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2bd95ad-7e74-4846-8fd1-0f7d926704b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ficha de Avaliação",
+      "targets": [
+        ["linkText=Ficha de Avaliação", "linkText"],
+        ["css=.open li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '#/main/avaliacao_list')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Ficha de Avaliação')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc492a00-9831-4c92-ace9-624c645a8fd6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,71)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "005ce602-662c-46f8-9b02-8c43581bfe6a",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm2",
+      "targets": [
+        ["id=confirm2", "id"],
+        ["css=.odd:nth-child(1) #confirm2", "css:finder"],
+        ["xpath=//button[@id='confirm2']", "xpath:attributes"],
+        ["xpath=//td[8]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2fa65a7-d3b3-4618-8ba2-8c23897d7777",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(6) > a > .arrow",
+      "targets": [
+        ["css=.nav-item:nth-child(6) > a > .arrow", "css:finder"],
+        ["xpath=//li[6]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8fd6382-079e-4c60-98a2-d116b8b08af6",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .arrow",
+      "targets": [
+        ["css=li:nth-child(1) .arrow", "css:finder"],
+        ["xpath=//li[6]/ul/li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5931103a-6f44-4f7a-9ca7-d518c406fb14",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Planejadas e Executadas",
+      "targets": [
+        ["linkText=Planejadas e Executadas", "linkText"],
+        ["css=.open:nth-child(1) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '#/main/monitoramento_planejadas_executadas')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Planejadas e Executadas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84257f60-bd25-4b02-b0c1-be88550811db",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,75)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79fe74c5-1358-4b3b-9cb7-1830207787a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.default:nth-child(1)",
+      "targets": [
+        ["css=.default:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Relatório em Excel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1a38d67-fcb1-454c-88d3-35c3c61603aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Relatório em PDF')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a29aab32-7214-4bef-a22b-a7cfbbb0c65b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Relatório em PDF')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72ab08e3-c70f-4e71-bb19-74f4a1fb5d7b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Relatório em PDF')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "531766ed-6de0-476a-8746-6e933b6cd04f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Setores e Bens",
+      "targets": [
+        ["linkText=Setores e Bens", "linkText"],
+        ["css=.active > .sub-menu > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '#/main/monitoramento_setores_bens')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Setores e Bens')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc086c67-30f7-4207-9b33-70975a97bf49",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,75)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8079bff6-fcfc-4552-a4a3-0c29d6f4b622",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,73)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efc838b3-500f-4cd2-8c34-cbd9a844b9d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-invalid > .ui-select-match > .btn",
+      "targets": [
+        ["css=.ng-invalid > .ui-select-match > .btn", "css:finder"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Selecione')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10ed7d29-d79b-49cb-a42a-18d246cf1380",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bem",
+      "targets": [
+        ["linkText=Bem", "linkText"],
+        ["css=#ui-select-choices-row-19-0 > .ui-select-choices-row-inner", "css:finder"],
+        ["xpath=//div[@id='ui-select-choices-row-19-0']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[54]", "xpath:href"],
+        ["xpath=//li/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bem')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc520b3d-49b9-4fd3-a402-8c575a99f67d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) > .form-group:nth-child(1) .ui-select-match > .btn",
+      "targets": [
+        ["css=.row:nth-child(3) > .form-group:nth-child(1) .ui-select-match > .btn", "css:finder"],
+        ["xpath=//div[3]/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92aca12b-9359-4058-a3c0-d7d55913f433",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=IPHAN - DF",
+      "targets": [
+        ["linkText=IPHAN - DF", "linkText"],
+        ["css=#ui-select-choices-row-20-7 > .ui-select-choices-row-inner", "css:finder"],
+        ["xpath=//div[@id='ui-select-choices-row-20-7']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[62]", "xpath:href"],
+        ["xpath=//div[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'IPHAN - DF')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bc26aa2-65a1-4ebb-b681-522616f8f941",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group > .btn",
+      "targets": [
+        ["css=.form-group > .btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Gerar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e7c977c-8516-4529-b09c-a01ec1748d14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.default:nth-child(1)",
+      "targets": [
+        ["css=.default:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Relatório em Excel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d79e6f32-49ae-41f9-b6ad-4db9f6509f1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,' Relatório em PDF')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6fb52c0d-b9d0-4736-ba09-2ba72e541321",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fd657837-9848-44e1-a2cd-60492fb4d7b5"]
+  }],
+  "urls": ["https://fiscalis.homologacao.iphan.gov.br/"],
+  "plugins": []
+}
